@@ -24,6 +24,7 @@ body {
     padding: 24px;
     background-color: #ffffff;
     position: fixed;
+    
 }
 
 .img-header{
@@ -39,22 +40,26 @@ body {
 }
 
 .section-principal{
-    padding: 45px;
+    padding: 63px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-image: url("imgs/fundo.webp");
+    Background-repeat: no-repeat;
+    Background-size: 1750px;
+    Background-position:center top;
 }
 
 .conteudo-principal-img{
     height: 300px;
     border-radius: 300px;  
-    box-shadow: 4px 5px 4px rgb(248, 247, 247);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.7);
 }
 
 .conteudo-link-img:hover{
-    box-shadow: 4px 5px 4px rgba(0,0,0,0.70);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.7);
     border-radius: 300px;
 }
 
@@ -90,7 +95,6 @@ body {
     display: flex;
     align-items: center;
     gap: 24px;
-    margin-top: 48px;  
     justify-content: space-around;
     flex-wrap: wrap; 
 }
