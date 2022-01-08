@@ -20,8 +20,10 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 100%;
     padding: 24px;
-    background-color: rgb(254, 255, 255);
+    background-color: #ffffff;
+    position: fixed;
 }
 
 .img-header{
@@ -33,6 +35,7 @@ body {
 .conteudo{
     margin-bottom: 48px;
     border-top: 0.4px solid white;
+    padding-top: 90px;
 }
 
 .section-principal{
@@ -47,10 +50,11 @@ body {
 .conteudo-principal-img{
     height: 300px;
     border-radius: 300px;  
+    box-shadow: 4px 5px 4px rgb(248, 247, 247);
 }
 
 .conteudo-link-img:hover{
-    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.70);
     border-radius: 300px;
 }
 
