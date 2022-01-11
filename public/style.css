@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -66,19 +68,25 @@ body {
 .section-principal-escrito{
     display: flex;
     flex-direction: column;
-    gap: 32px;
-}
-
-.section-principal-texto{
-    font-weight:150;
 }
 
 .titulo{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 64px;
 }
 
-.conteudo-button{
+.subtitulo{
+    font-weight: 400;
+    font-size: 60px;    
+}
+
+.section-principal-texto{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight:150;
+}
+
+.conteudo-button{    
     background-color: white;
     width: 180px;
     height: 60px;
@@ -86,6 +94,7 @@ body {
     border-radius: 30px;
     font-size: 20px;     
 }
+
 .conteudo-button:hover{
     box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
 }
@@ -113,11 +122,45 @@ body {
     font-size: 30px;
     color: white;
 }
+
 .tabela-topico{
     display: flex;
     flex-direction: column;
     gap: 30px;
     color: white;
+}
+
+.icon{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.icon p{
+    font-size: 20px;
+}
+
+.icon img{
+    height: 50px;
+    border-radius: 100px;
+}
+  
+.topico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topico a{
+    text-decoration: none;
+    color: white;
+}
+
+.topico a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 .footer{
@@ -129,6 +172,7 @@ body {
     color: white;
     font-size: 20px;
 }
+
 .footer a{
     color: inherit;   
 }
@@ -137,33 +181,10 @@ body {
     text-decoration: underline;
 }
 
-.topico{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.footer i{
+    font-size: 40px;
 }
 
-.topico a{
-    text-decoration: none;
-    color: white;
-}
-.topico a:hover{
-    text-decoration: none;
-    color: black;
-}
-.imgs-padrao{
-    height: 50px;
-    border-radius: 100px;
-    padding-left: 10px;
-}
-
-.img-footer{
-    height: 40px;
-    border-radius: 20px;
-}
-
-.img-footer:hover{
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(29, 91, 141, 0.8);
+.footer i:hover{
+    box-shadow: 5px 10px 10px rgba(29, 91, 141, 0.8);
 }
